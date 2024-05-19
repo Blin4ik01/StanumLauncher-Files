@@ -1,533 +1,535 @@
+
 <!DOCTYPE html>
-<!-- saved from url=(0058)https://files.betacraft.uk/launcher/changelog/English.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <title>Stanum - Changelog</title>
-  <link rel="stylesheet" type="text/css" href="http://files.betacraft.uk/launcher/changelog/style.css">
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>BetaCraft - Changelog</title>
+  <link rel="stylesheet" type="text/css" href="http://files.betacraft.uk/launcher/changelog/style.css" />
 </head>
 
 <body>
   <div id="1.09_16">
-    <h3><a href="https://files.betacraft.uk/launcher/launcher-1.09_16.jar"><font color="#aaaaff">Stanum v1.09_16</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16.exe"><font color="#aaaaff">(exe)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16-portable.jar"><font color="#aaaaff">(jar portable)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16-portable.exe"><font color="#aaaaff">(exe portable)</font></a></h3>
-    13th August 2022, 19:00 GMT <br>
+    <h3><a href="https://files.betacraft.uk/launcher/launcher-1.09_16.jar"><font color="#aaaaff">BetaCraft v1.09_16</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16.exe"><font color="#aaaaff">(exe)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16-portable.jar"><font color="#aaaaff">(jar portable)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_16-portable.exe"><font color="#aaaaff">(exe portable)</font></a></h3>
+    13th August 2022, 19:00 GMT <br />
     <div id="info">
-    Added:<br>
-    + Console log window (with pause/unpause, copy, clear options)<br>
-	+ Option to change Java path for instance<br>
-	+ New mods repository system (mod creators can now upload their mods to it independently)<br>
-	+ BetaEvolutions support<br><br>
-    Fixes:<br>
-	• fixed excessive amount of r/w operations at startup<br>
-    • Discord RPC not showing up<br>
-    • versions 12w18a, 12w19a and 12w21a now work again<br>
-    • the NSSS mod should now work again<br>
-    • client error stream is now printed to log file<br>
-    • fixed launcher not starting on Ubuntu on certain installations<br>
-	• URLs that return code 400 and above will be treated accordingly from now on<br>
-    • fixed uninstalled mods not listing when clicking on servers that run them<br><br>
-    Other changes:<br>
-	• optional "Manual download" option for new updates, pointing to Github<br>
-    • the minimal requirement for running the launcher is now Java 5<br>
-    • removed buggy and unsafe MSA auth flow, implemented device code flow in its place<br>
-    • made launch methods updatable &amp; decentralized<br>
-	• language names are now standardized and use their own names instead of English<br>
-    • logs are handled better internally now<br>
-    • renamed default instance name to "default instance", and changed default RAM from 512M to 1G<br>
-    • launcher will now check if selected Java installation is greater than 8; if so, it will warn the user about it<br>
-    • instances can now be removed from instance list level<br>
-	• signing in to minecraft accounts now happens on a separate thread<br>
-	• it's possible to set a sha1 hash for versions in their .info files (useful for autoupdating mods)<br>
-	• decreased macOS requirement from 10.7.1 to 10.4.1 (though no proper support due to lack of dedicated testers)<br>
-	• removed unnecessary hardcoded JVM arguments<br>
-	• launcher &amp; client logs now clear on every run<br>
-	• translation files lacking certain entries will now use default English ones in their place instead of 'null'<br>
-	<br>
+    Added:<br />
+    + Console log window (with pause/unpause, copy, clear options)<br />
+	+ Option to change Java path for instance<br />
+	+ New mods repository system (mod creators can now upload their mods to it independently)<br />
+	+ BetaEvolutions support<br /><br />
+    Fixes:<br />
+	&bull; fixed excessive amount of r/w operations at startup<br />
+    &bull; Discord RPC not showing up<br />
+    &bull; versions 12w18a, 12w19a and 12w21a now work again<br />
+    &bull; the NSSS mod should now work again<br />
+    &bull; client error stream is now printed to log file<br />
+    &bull; fixed launcher not starting on Ubuntu on certain installations<br />
+	&bull; URLs that return code 400 and above will be treated accordingly from now on<br />
+    &bull; fixed uninstalled mods not listing when clicking on servers that run them<br /><br />
+    Other changes:<br />
+	&bull; optional "Manual download" option for new updates, pointing to Github<br />
+    &bull; the minimal requirement for running the launcher is now Java 5<br />
+    &bull; removed buggy and unsafe MSA auth flow, implemented device code flow in its place<br />
+    &bull; made launch methods updatable & decentralized<br />
+	&bull; language names are now standardized and use their own names instead of English<br />
+    &bull; logs are handled better internally now<br />
+    &bull; renamed default instance name to "default instance", and changed default RAM from 512M to 1G<br />
+    &bull; launcher will now check if selected Java installation is greater than 8; if so, it will warn the user about it<br />
+    &bull; instances can now be removed from instance list level<br />
+	&bull; signing in to minecraft accounts now happens on a separate thread<br />
+	&bull; it's possible to set a sha1 hash for versions in their .info files (useful for autoupdating mods)<br />
+	&bull; decreased macOS requirement from 10.7.1 to 10.4.1 (though no proper support due to lack of dedicated testers)<br />
+	&bull; removed unnecessary hardcoded JVM arguments<br />
+	&bull; launcher & client logs now clear on every run<br />
+	&bull; translation files lacking certain entries will now use default English ones in their place instead of 'null'<br />
+	<br />
     </div>
   </div>
   <div id="1.09_15">
     <h3><a href="https://files.betacraft.uk/launcher/launcher-1.09_15.jar"><font color="#aaaaff">BetaCraft v1.09_15</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_15.exe"><font color="#aaaaff">(exe)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_15-portable.jar"><font color="#aaaaff">(jar portable)</font></a> <a href="https://files.betacraft.uk/launcher/launcher-1.09_15-portable.exe"><font color="#aaaaff">(exe portable)</font></a></h3>
-    26th November 2021, 19:27 GMT <br>
+    26th November 2021, 19:27 GMT <br />
     <div id="info">
-    Changes:<br>
-    + no more dependency on JavaFX for MSA (it is still buggy and is to be fixed next month)<br><br>
+    Changes:<br />
+    + no more dependency on JavaFX for MSA (it is still buggy and is to be fixed next month)<br /><br />
 
-    Bugfixes:<br>
-    • fixed the launcher crashing when the config files are corrupted<br>
-    • now works again, under the new betacraft.uk domain<br><br>
+    Bugfixes:<br />
+    &bull; fixed the launcher crashing when the config files are corrupted<br />
+    &bull; now works again, under the new betacraft.uk domain<br /><br />
     </div>
   </div>
   <div id="1.09_14">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_14</font></a></h3>
-    5th July 2021, 18:45 GMT <br>
+    5th July 2021, 18:45 GMT <br />
     <div id="info">
-    Changes:<br>
-    + you can now join online mode classic servers via the server IP prompt (not only through the server list)<br>
-    + online mode support for servers at versions c0.0.15a and c0.0.16a_02<br>
-    + removed any dependencies on the https protocol where possible<br><br>
+    Changes:<br />
+    + you can now join online mode classic servers via the server IP prompt (not only through the server list)<br />
+    + online mode support for servers at versions c0.0.15a and c0.0.16a_02<br />
+    + removed any dependencies on the https protocol where possible<br /><br />
 
-    Bugfixes:<br>
-    • fixed a graphical bug with overlapping tabs<br><br>
+    Bugfixes:<br />
+    &bull; fixed a graphical bug with overlapping tabs<br /><br />
     </div>
   </div>
   <div id="1.09_13">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_13</font></a></h3>
-    28th June 2021, 18:45 CEST <br>
+    28th June 2021, 18:45 CEST <br />
     <div id="info">
-    Added:<br>
-    + Support for resizing c0.0.12a_03<br><br>
-    Fixes:<br>
-    • Classic, Indev and Infdev should now work on macOS<br>
-    • servers for 12w18a and 12w19a should now download<br>
-    • corrected the padding on the login prompt<br>
-    • fixed all known issues with Discord RPC<br>
-    • fixed linux mouse stutter in early Classic<br>
-    • fixed issues with Java 16<br><br>
-    Other changes:<br>
-    • the default version for an instance is now b1.7.3<br>
-    • cleaned up a lot of code related to launching the game<br>
-    • early Indev versions will now request to set their size on launch<br>
-    • it's now possible to force the server IP prompt to appear by adding <i><font color="gray">-Dbetacraft.ask_for_server=true</font></i> to JVM arguments<br>
-    • it's now possible to use <i><font color="gray">-Dbetacraft.resize_applet=true</font></i> as an JVM argument to force the applet resizing panel to appear<br>
-    • the launcher will now run the game with the same JVM it's been run with<br>
-    • addons list is now more user friendly and addons automatically update<br><br>
+    Added:<br />
+    + Support for resizing c0.0.12a_03<br /><br />
+    Fixes:<br />
+    &bull; Classic, Indev and Infdev should now work on macOS<br />
+    &bull; servers for 12w18a and 12w19a should now download<br />
+    &bull; corrected the padding on the login prompt<br />
+    &bull; fixed all known issues with Discord RPC<br />
+    &bull; fixed linux mouse stutter in early Classic<br />
+    &bull; fixed issues with Java 16<br /><br />
+    Other changes:<br />
+    &bull; the default version for an instance is now b1.7.3<br />
+    &bull; cleaned up a lot of code related to launching the game<br />
+    &bull; early Indev versions will now request to set their size on launch<br />
+    &bull; it's now possible to force the server IP prompt to appear by adding <i><font color="gray">-Dbetacraft.ask_for_server=true</font></i> to JVM arguments<br />
+    &bull; it's now possible to use <i><font color="gray">-Dbetacraft.resize_applet=true</font></i> as an JVM argument to force the applet resizing panel to appear<br />
+    &bull; the launcher will now run the game with the same JVM it's been run with<br />
+    &bull; addons list is now more user friendly and addons automatically update<br /><br />
     </div>
   </div>
   <div id="lib-update-4">
     <h3><font color="#aaaaff">Libraries update 4</font></h3>
-    26th June 2021, 10:35 CEST <br>
+    26th June 2021, 10:35 CEST <br />
     <div id="info">
-    All platforms | Bugfix:<br>
-    • Fixed gray screen from a1.1.1<br><br>
-    To still experience the gray screen bug, add <i><font color="gray">-Dbetacraft.grayScreen=true</font></i> to JVM arguments<br><br>
+    All platforms | Bugfix:<br />
+    &bull; Fixed gray screen from a1.1.1<br /><br />
+    To still experience the gray screen bug, add <i><font color="gray">-Dbetacraft.grayScreen=true</font></i> to JVM arguments<br /><br />
     </div>
   </div>
   <div id="lib-update-3">
     <h3><font color="#aaaaff">Libraries update 3</font></h3>
-    4th April 2021, 21:00 CEST <br>
+    4th April 2021, 21:00 CEST <br />
     <div id="info">
-    All platforms | Bugfix:<br>
-    • Fixed sound not working in early Indev versions<br><br>
+    All platforms | Bugfix:<br />
+    &bull; Fixed sound not working in early Indev versions<br /><br />
     </div>
   </div>
   <div id="1.09_12">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_12</font></a></h3>
-    31st March 2021, 23:57 CEST <br>
+    31st March 2021, 23:57 CEST <br />
     <div id="info">
-    Added:<br>
-    + Microsoft account support<br>
-    Fixed:<br>
-    • the launcher not working on older java 8 builds<br>
-    • unnecessary re-downloads<br>
-    • frame resizing back to original size after switching tabs<br>
-    • button size being too small for some languages<br>
-    • being unable to play the game while offline<br>
-    • choice buttons lacking translation<br>
-    Other changes:<br>
-    • the project now uses Gradle (it's not on github yet)<br>
-    • backend changes, implemented some code from the future 2.0 release<br>
-    • the launcher possibly loads quicker now<br>
-    • the default version for an instance is now b1.6.6<br><br>
+    Added:<br />
+    + Microsoft account support<br />
+    Fixed:<br />
+    &bull; the launcher not working on older java 8 builds<br />
+    &bull; unnecessary re-downloads<br />
+    &bull; frame resizing back to original size after switching tabs<br />
+    &bull; button size being too small for some languages<br />
+    &bull; being unable to play the game while offline<br />
+    &bull; choice buttons lacking translation<br />
+    Other changes:<br />
+    &bull; the project now uses Gradle (it's not on github yet)<br />
+    &bull; backend changes, implemented some code from the future 2.0 release<br />
+    &bull; the launcher possibly loads quicker now<br />
+    &bull; the default version for an instance is now b1.6.6<br /><br />
     </div>
   </div>
   <div id="1.09_11">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_11</font></a></h3>
-    22nd October 2020, 22:00 CEST <br>
+    22nd October 2020, 22:00 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Added support for classic server authentication and heartbeat (also for Alpha to 1.5.2) - see <i>Server list</i> tab for more information<br>
-    + Hopefully the launcher should load quicker now<br><br>
+    Changes:<br />
+    + Added support for classic server authentication and heartbeat (also for Alpha to 1.5.2) - see <i>Server list</i> tab for more information<br />
+    + Hopefully the launcher should load quicker now<br /><br />
 
-    Bugfixes:<br>
-    • Fixed inf-20100413 crashing after a while of gameplay<br><br>
+    Bugfixes:<br />
+    &bull; Fixed inf-20100413 crashing after a while of gameplay<br /><br />
     </div>
   </div>
   <div id="1.09_10">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_10</font></a></h3>
-    3rd July 2020, 17:37 CEST <br>
+    3rd July 2020, 17:37 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Added descriptions for addons and mods<br>
-    + Optimized the startup process of the launcher<br>
-    + Joining servers is now possible for all versions that support it<br>
-    + Added version detector for seamless launch of versions without configuration file<br><br>
+    Changes:<br />
+    + Added descriptions for addons and mods<br />
+    + Optimized the startup process of the launcher<br />
+    + Joining servers is now possible for all versions that support it<br />
+    + Added version detector for seamless launch of versions without configuration file<br /><br />
 
-    Bugfixes:<br>
-    • De-bloated the wrapper code a bit<br>
-    • Fixed issues with joining servers on c0.0.15a-1<br>
-    • Fixed bugs with windows and buttons<br>
-    • Completely redid the versions list<br><br>
+    Bugfixes:<br />
+    &bull; De-bloated the wrapper code a bit<br />
+    &bull; Fixed issues with joining servers on c0.0.15a-1<br />
+    &bull; Fixed bugs with windows and buttons<br />
+    &bull; Completely redid the versions list<br /><br />
     </div>
   </div>
   <div id="lib-update-2">
     <h3><font color="#aaaaff">Libraries update 2</font></h3>
-    24th April 2020, 15:51 CEST <br>
+    24th April 2020, 15:51 CEST <br />
     <div id="info">
-    All platforms | Bugfix:<br>
-    • Fixed lines appearing in clouds on AMD graphics<br><br>
+    All platforms | Bugfix:<br />
+    &bull; Fixed lines appearing in clouds on AMD graphics<br /><br />
     </div>
   </div>
   <div id="1.09_09">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_09</font></a></h3>
-    18th April 2020, 23:38 CEST <br>
+    18th April 2020, 23:38 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Last closed tabs now save and load<br><br>
+    Changes:<br />
+    + Last closed tabs now save and load<br /><br />
 
-    Bugfixes:<br>
-    • Fixed black screens when "Keep the launcher open" was unselected. Do "Force update" to fix those issues.<br>
-    • Fixed autoupdate again<br><br>
+    Bugfixes:<br />
+    &bull; Fixed black screens when "Keep the launcher open" was unselected. Do "Force update" to fix those issues.<br />
+    &bull; Fixed autoupdate again<br /><br />
     </div>
   </div>
   <div id="1.09_08">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_08</font></a></h3>
-    14th April 2020, 19:32 CEST <br>
+    14th April 2020, 19:32 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed servers list for 0.0.15a<br><br>
+    Bugfixes:<br />
+    &bull; Fixed servers list for 0.0.15a<br /><br />
     </div>
   </div>
   <div id="1.09_07">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_07</font></a></h3>
-    14th April 2020, 16:04 CEST <br>
+    14th April 2020, 16:04 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed connection issues with c0.0.15a<br><br>
+    Bugfixes:<br />
+    &bull; Fixed connection issues with c0.0.15a<br /><br />
     </div>
   </div>
   <div id="1.09_06">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_06</font></a></h3>
-    14th April 2020, 02:25 CEST <br>
+    14th April 2020, 02:25 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed autoupdate<br><br>
+    Bugfixes:<br />
+    &bull; Fixed autoupdate<br /><br />
     </div>
   </div>
   <div id="1.09_05">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_05</font></a></h3>
-    14th April 2020, 01:58 CEST <br>
+    14th April 2020, 01:58 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed addons and launch methods acting weird on Windows<br><br>
+    Bugfixes:<br />
+    &bull; Fixed addons and launch methods acting weird on Windows<br /><br />
     </div>
   </div>
   <div id="1.09_04">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_04</font></a></h3>
-    13th April 2020, 23:16 CEST <br>
+    13th April 2020, 23:16 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed Windows support<br><br>
+    Bugfixes:<br />
+    &bull; Fixed Windows support<br /><br />
     </div>
   </div>
   <div id="1.09_03">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_03</font></a></h3>
-    13th April 2020, 21:30 CEST <br>
+    13th April 2020, 21:30 CEST <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed c0.0.15a unable to save<br><br>
+    Bugfixes:<br />
+    &bull; Fixed c0.0.15a unable to save<br /><br />
     </div>
   </div>
   <div id="1.09_02">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_02</font></a></h3>
-    13th April 2020, 19:59 CEST <br>
+    13th April 2020, 19:59 CEST <br />
     <div id="info">
-    Changes:<br>
-    + More integration with pre-classic and early classic<br>
-    + Improved addons &amp; launch methods<br>
-    + Added support for c0.0.15a<br><br>
+    Changes:<br />
+    + More integration with pre-classic and early classic<br />
+    + Improved addons & launch methods<br />
+    + Added support for c0.0.15a<br /><br />
 
-    Bugfixes:<br>
-    • Fixed addons not deselecting<br><br>
+    Bugfixes:<br />
+    &bull; Fixed addons not deselecting<br /><br />
     </div>
   </div>
   <div id="1.09_01">
     <h3><a><font color="#aaaaff">BetaCraft v1.09_01</font></a></h3>
-    10th March 2020, 02:35 CET <br>
+    10th March 2020, 02:35 CET <br />
     <div id="info">
-    Changes:<br>
-    + Made local custom versions display as "[Custom] %s"<br>
-    + Made jsons not mandatory for custom versions<br>
-    + The launcher won't attempt to launch the game if the nickname is blank<br>
-    + Re-added the username field above the Play button<br>
-    + Moved the "Log in" button to the right of the username field (if logged in, the nickname field is uneditable)<br>
-    + The wrapper no longer adds a "Minecraft " prefix before the instance name<br><br>
+    Changes:<br />
+    + Made local custom versions display as "[Custom] %s"<br />
+    + Made jsons not mandatory for custom versions<br />
+    + The launcher won't attempt to launch the game if the nickname is blank<br />
+    + Re-added the username field above the Play button<br />
+    + Moved the "Log in" button to the right of the username field (if logged in, the nickname field is uneditable)<br />
+    + The wrapper no longer adds a "Minecraft " prefix before the instance name<br /><br />
 
-    Bugfixes:<br>
-    • Fixed the launcher frame extending vertically on Windows 10<br>
-    • Fixed the username sometimes being an email<br>
-    • Fixed autoupdate<br>
-    • Fixed online saving in 13a_03 and 14a_08<br>
-    • Fixed a bug when loading the launcher while being offline<br>
-    • Fixed addons sometimes doubling in the configuration, thus not allowing the game to start<br>
-    • Fixed cyrillics<br>
-    • Fixed mods repository name displaying versions list's name<br>
-    • Translated tab buttons<br><br>
+    Bugfixes:<br />
+    &bull; Fixed the launcher frame extending vertically on Windows 10<br />
+    &bull; Fixed the username sometimes being an email<br />
+    &bull; Fixed autoupdate<br />
+    &bull; Fixed online saving in 13a_03 and 14a_08<br />
+    &bull; Fixed a bug when loading the launcher while being offline<br />
+    &bull; Fixed addons sometimes doubling in the configuration, thus not allowing the game to start<br />
+    &bull; Fixed cyrillics<br />
+    &bull; Fixed mods repository name displaying versions list's name<br />
+    &bull; Translated tab buttons<br /><br />
     </div>
   </div>
   <div id="1.09">
     <h3><a><font color="#aaaaff">BetaCraft v1.09</font></a></h3>
-    29th February 2020, 21:42 CET <br>
+    29th February 2020, 21:42 CET <br />
     <div id="info">
-    Changes:<br>
-    + Made the launcher frame resizeable<br>
-    + Made the launcher use the default OS theme for the frame<br>
-    + Added window tabs (Changelog, Classic servers)<br>
-    + Added multiinstances<br>
-    + Added wrapper addons list with an API<br>
-    + Added mods repository:<br>
-    <div id="info">· select the mods you want to add to your versions list and click OK<br></div>
-    + Added the ability to change the game frame's icon<br>
-    + Added the ability to change the directory of the instance<br>
-    + Added mojang account authentication (not mandatory)<br>
-    + Minor changes to the GUI<br>
-    + Added versions 1.0.0 through 1.5.2<br>
-    - Removed "More info" button in versions list<br>
+    Changes:<br />
+    + Made the launcher frame resizeable<br />
+    + Made the launcher use the default OS theme for the frame<br />
+    + Added window tabs (Changelog, Classic servers)<br />
+    + Added multiinstances<br />
+    + Added wrapper addons list with an API<br />
+    + Added mods repository:<br />
+    <div id="info">· select the mods you want to add to your versions list and click OK<br /></div>
+    + Added the ability to change the game frame's icon<br />
+    + Added the ability to change the directory of the instance<br />
+    + Added mojang account authentication (not mandatory)<br />
+    + Minor changes to the GUI<br />
+    + Added versions 1.0.0 through 1.5.2<br />
+    - Removed "More info" button in versions list<br />
 
-    Bugfixes:<br>
-    • Fixed the language file not always updating<br>
-    • Fixed Indev and Infdev not working<br>
-    • Fixed black screen in 0.24_st_03 and 0.30<br>
-    • Fixed launching mc-161148<br><br>
+    Bugfixes:<br />
+    &bull; Fixed the language file not always updating<br />
+    &bull; Fixed Indev and Infdev not working<br />
+    &bull; Fixed black screen in 0.24_st_03 and 0.30<br />
+    &bull; Fixed launching mc-161148<br /><br />
     </div>
   </div>
   <div id="1.08_02">
     <h3><a><font color="#aaaaff">BetaCraft v1.08_02</font></a></h3>
-    4th December 2019, 23:17 CET <br>
+    4th December 2019, 23:17 CET <br />
     <div id="info">
-    Bugfixes:<br>
-    • Fixed the server IP input field not appearing<br>
-    • Fixed Discord RPC not showing the correct translation for a username.<br><br>
+    Bugfixes:<br />
+    &bull; Fixed the server IP input field not appearing<br />
+    &bull; Fixed Discord RPC not showing the correct translation for a username.<br /><br />
     </div>
   </div>
   <div id="1.08_01">
     <h3><a><font color="#aaaaff">BetaCraft v1.08_01</font></a></h3>
-    28th November 2019, 16:12 CET <br>
+    28th November 2019, 16:12 CET <br />
     <div id="info">
-    Changes:<br>
-    + The launcher now determines the launch class by the jar structure, not by the jar's name.<br>
-    Bugfixes:<br>
-    • Fixed launcher not working due to domain change<br><br>
+    Changes:<br />
+    + The launcher now determines the launch class by the jar structure, not by the jar's name.<br />
+    Bugfixes:<br />
+    &bull; Fixed launcher not working due to domain change<br /><br />
     </div>
   </div>
   <div id="1.08">
     <h3><a><font color="#aaaaff">BetaCraft v1.08</font></a></h3>
-    29th September 2019, 01:31 CEST <br>
+    29th September 2019, 01:31 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Added support for Retrocraft servers<br>
-    + Added support for changing window dimensions in Classic and Indev<br>
-    + Added support for Minecraft 4k<br>
-    Bugfixes:<br>
-    • Fixed settings randomly resetting<br>
-    • Fixed locales not working on Discord RPC<br>
-    • Fixed forced updates<br>
-    • Fixed "Cancel" button in IP dialogue in Classics<br><br>
+    Changes:<br />
+    + Added support for Retrocraft servers<br />
+    + Added support for changing window dimensions in Classic and Indev<br />
+    + Added support for Minecraft 4k<br />
+    Bugfixes:<br />
+    &bull; Fixed settings randomly resetting<br />
+    &bull; Fixed locales not working on Discord RPC<br />
+    &bull; Fixed forced updates<br />
+    &bull; Fixed "Cancel" button in IP dialogue in Classics<br /><br />
     </div>
   </div>
   <div id="1.07">
     <h3><a><font color="#aaaaff">BetaCraft v1.07</font></a></h3>
-    20th July 2019, 22:14 CEST <br>
+    20th July 2019, 22:14 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Optimization, the launcher should work faster now<br>
-    + Corrected some typos in the code<br>
-    + Changed the debug language from Polish to English<br>
-    Bugfixes:<br>
-    • Fixed launch arguments when typing more than 1 argument<br>
-    • Improved the detection of illegal characters in the name field<br>
-    • The launcher should now open/open the game correctly, the bug affected a lot of people<br>
-    • Fixed loading/failing messages on loading update news<br><br>
+    Changes:<br />
+    + Optimization, the launcher should work faster now<br />
+    + Corrected some typos in the code<br />
+    + Changed the debug language from Polish to English<br />
+    Bugfixes:<br />
+    &bull; Fixed launch arguments when typing more than 1 argument<br />
+    &bull; Improved the detection of illegal characters in the name field<br />
+    &bull; The launcher should now open/open the game correctly, the bug affected a lot of people<br />
+    &bull; Fixed loading/failing messages on loading update news<br /><br />
     </div>
   </div>
   <div id="1.06">
     <h3><a><font color="#aaaaff">BetaCraft v1.06</font></a></h3>
-    13rd June 2019, 13:07 CEST <br>
+    13rd June 2019, 13:07 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Added an option to disable Discord RPC<br>
-    + The launcher now requests a skin update when launching with proxy<br>
-    - Removed the heavy easter egg<br>
-    Bugfixes:<br>
-    • Language files should now update correctly on every launch<br>
-    • Fixed not being able to type anything anywhere, and thus removed the Enter key feature<br><br>
+    Changes:<br />
+    + Added an option to disable Discord RPC<br />
+    + The launcher now requests a skin update when launching with proxy<br />
+    - Removed the heavy easter egg<br />
+    Bugfixes:<br />
+    &bull; Language files should now update correctly on every launch<br />
+    &bull; Fixed not being able to type anything anywhere, and thus removed the Enter key feature<br /><br />
     </div>
   </div>
   <div id="1.05">
     <h3><a><font color="#aaaaff">BetaCraft v1.05</font></a></h3>
-    13rd May 2019, 21:00 CEST <br>
+    13rd May 2019, 21:00 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Added "Show more" button to the version list<br>
-    + Translated some entries to Polish<br>
-    + Added game and a launcher icon<br>
-    + Added an easter egg<br>
-    + You can now confirm changes with the Enter key<br>
-    Bugfixes:<br>
-    • Fixed a graphical glitch with the changelog background<br>
-    • Fixed launching the game with proxy arguments<br><br>
+    Changes:<br />
+    + Added "Show more" button to the version list<br />
+    + Translated some entries to Polish<br />
+    + Added game and a launcher icon<br />
+    + Added an easter egg<br />
+    + You can now confirm changes with the Enter key<br />
+    Bugfixes:<br />
+    &bull; Fixed a graphical glitch with the changelog background<br />
+    &bull; Fixed launching the game with proxy arguments<br /><br />
     </div>
   </div>
   <div id="1.04">
     <h3><a><font color="#aaaaff">BetaCraft v1.04</font></a></h3>
-    6th May 2019, 20:47 CEST <br>
+    6th May 2019, 20:47 CEST <br />
     <div id="info">
-    Changes:<br>
-    + Connecting to Classic servers is now possible<br>
-    + Changed Retrocraft proxy to BetaCraft proxy<br>
-    Bugfix:<br>
-    • Fixed auto-update<br><br>
+    Changes:<br />
+    + Connecting to Classic servers is now possible<br />
+    + Changed Retrocraft proxy to BetaCraft proxy<br />
+    Bugfix:<br />
+    &bull; Fixed auto-update<br /><br />
     </div>
   </div>
   <div id="1.03_4">
     <h3><a><font color="#aaaaff">BetaCraft v1.03_4</font></a></h3>
-    28th April 2019, 18:50 CEST <br>
+    28th April 2019, 18:50 CEST <br />
     <div id="info">
-    Windows | Bugfix:<br>
-    • Attempted fix on auto-update<br><br>
+    Windows | Bugfix:<br />
+    &bull; Attempted fix on auto-update<br /><br />
     </div>
   </div>
   <div id="1.03_3">
     <h3><a><font color="#aaaaff">BetaCraft v1.03_3</font></a></h3>
-    23rd April 2019, 14:07 CEST <br>
+    23rd April 2019, 14:07 CEST <br />
     <div id="info">
-    Linux | Bugfix:<br>
-    • Fixed launching the game crashing it<br><br>
+    Linux | Bugfix:<br />
+    &bull; Fixed launching the game crashing it<br /><br />
     </div>
   </div>
   <div id="1.03_2">
     <h3><a><font color="#aaaaff">BetaCraft v1.03_2</font></a></h3>
-    22nd April 2019, 19:32 CEST <br>
+    22nd April 2019, 19:32 CEST <br />
     <div id="info">
-    Changes:<br>
-    + The default version has been switched to b1.7.3<br>
-    Bugfix:<br>
-    • Attempted fix on auto-update<br><br>
+    Changes:<br />
+    + The default version has been switched to b1.7.3<br />
+    Bugfix:<br />
+    &bull; Attempted fix on auto-update<br /><br />
     </div>
   </div>
   <div id="1.03_1">
     <h3><a><font color="#aaaaff">BetaCraft v1.03_1</font></a></h3>
-    19th April 2019, 11:59 CEST <br>
+    19th April 2019, 11:59 CEST <br />
     <div id="info">
-    Changes:<br>
-    + BetaCraftWrapper is now a part of the launcher<br>
-    + Support for Discord Rich Presence<br>
-    + Launcher's version now displays in the window frame name<br>
-    + Selected version now displays above the "Select version" button<br>
-    Bugfix:<br>
-    • Better support for Java 7<br><br>
+    Changes:<br />
+    + BetaCraftWrapper is now a part of the launcher<br />
+    + Support for Discord Rich Presence<br />
+    + Launcher's version now displays in the window frame name<br />
+    + Selected version now displays above the "Select version" button<br />
+    Bugfix:<br />
+    &bull; Better support for Java 7<br /><br />
     </div>
   </div>
   <div id="wrapper-update-1">
     <h3><font color="#aaaaff">BetaCraftWrapper update</font></h3>
-    8th March 2019, 15:28 CET <br>
+    8th March 2019, 15:28 CET <br />
     <div id="info">
-    Bugfix:<br>
-    • Better compatibility with the oldest versions of the game<br><br>
+    Bugfix:<br />
+    &bull; Better compatibility with the oldest versions of the game<br /><br />
     </div>
   </div>
   <div id="lib-update-1">
     <h3><font color="#aaaaff">Libraries update 1</font></h3>
-    24th February 2019, 15:13 CET <br>
+    24th February 2019, 15:13 CET <br />
     <div id="info">
-    Windows | Bugfix:<br>
-    • No longer blackscreens<br>
+    Windows | Bugfix:<br />
+    &bull; No longer blackscreens<br />
     </div>
-    To fix the issue, go to %appdata%/.betacraft/ and delete the "bin" folder<br><br>
+    To fix the issue, go to %appdata%/.betacraft/ and delete the "bin" folder<br /><br />
   </div>
   <div id="1.03">
     <h3><a><font color="#aaaaff">BetaCraft v1.03</font></a></h3>
-    23rd February 2019, 17:48 CET <br>
+    23rd February 2019, 17:48 CET <br />
     <div id="info">
-    Changes:<br>
-    + Can launch Pre-Classic<br>
-    + Implemented a brand new BetaCraftWrapper!<br>
-    Bugfix:<br>
-    • All version from the version list now work<br><br>
-    Pre-Classic-Indev level.dat is saved in user.home directory (either your desktop or your account directory)<br><br>
+    Changes:<br />
+    + Can launch Pre-Classic<br />
+    + Implemented a brand new BetaCraftWrapper!<br />
+    Bugfix:<br />
+    &bull; All version from the version list now work<br /><br />
+    Pre-Classic-Indev level.dat is saved in user.home directory (either your desktop or your account directory)<br /><br />
     </div>
   </div>
   <div id="1.02">
     <h3><a><font color="#aaaaff">BetaCraft v1.02</font></a></h3>
-    11th February 2019, 19:43 CET <br>
+    11th February 2019, 19:43 CET <br />
     <div id="info">
-    Bugfix:<br>
-    • Corrected auto-update when the path for the file has spaces in it<br><br>
+    Bugfix:<br />
+    &bull; Corrected auto-update when the path for the file has spaces in it<br /><br />
     </div>
   </div>
   <div id="1.01">
     <h3><a><font color="#aaaaff">BetaCraft v1.01</font></a></h3>
-    11th February 2019, 18:46 CET <br>
+    11th February 2019, 18:46 CET <br />
     <div id="info">
-    Windows | Bugfixes:<br>
-    • Fixed UTF-8 chars<br>
-    • Fixed auto-removing the unneeded natives<br>
-    • Fixed blank buttons<br><br>
-    All platforms | Bugfix:<br>
-    • "Keep the launcher open" option should no longer cause issues<br><br>
+    Windows | Bugfixes:<br />
+    &bull; Fixed UTF-8 chars<br />
+    &bull; Fixed auto-removing the unneeded natives<br />
+    &bull; Fixed blank buttons<br /><br />
+    All platforms | Bugfix:<br />
+    &bull; "Keep the launcher open" option should no longer cause issues<br /><br />
     </div>
   </div>
   <div id="1.00">
     <h3><a><font color="#aaaaff">BetaCraft v1.00</font></a></h3>
-    10th February 2019, 19:19 CET <br>
+    10th February 2019, 19:19 CET <br />
     <div id="info">
-    Changes:<br>
-    + More instances possible!<br>
-    + Can run all listed versions!<br><br>
-    • "Keep the launcher open" option might cause issue to some people<br><br>
+    Changes:<br />
+    + More instances possible!<br />
+    + Can run all listed versions!<br /><br />
+    &bull; "Keep the launcher open" option might cause issue to some people<br /><br />
     </div>
   </div>
   <div id="preview3b3">
     <h3><a><font color="#aaaaff">BetaCraft vPreview 3 build 3</font></a></h3>
-    10th February 2019, 12:28 CET <br>
+    10th February 2019, 12:28 CET <br />
     <div id="info">
-    Windows | Bugfix:<br>
-    • Attempted a fix on auto-update<br><br>
+    Windows | Bugfix:<br />
+    &bull; Attempted a fix on auto-update<br /><br />
     </div>
   </div>
   <div id="preview3b2">
     <h3><a><font color="#aaaaff">BetaCraft vPreview 3 build 2</font></a></h3>
-    9th February 2019, 20:29 CET <br>
+    9th February 2019, 20:29 CET <br />
     <div id="info">
-    Changes:<br>
-    + Added languages!<br><br>
+    Changes:<br />
+    + Added languages!<br /><br />
     </div>
   </div>
   <div id="preview3b1">
     <h3><a><font color="#aaaaff">BetaCraft vPreview 3 build 1</font></a></h3>
-    9th February 2019, 16:34 CET <br>
+    9th February 2019, 16:34 CET <br />
     <div id="info">
-    Changes:<br>
-    + Changed the launcher's look<br>
-    + Added version sorting<br>
-    + Support for Classic and early Indevs<br><br>
+    Changes:<br />
+    + Changed the launcher's look<br />
+    + Added version sorting<br />
+    + Support for Classic and early Indevs<br /><br />
     </div>
   </div>
   <div id="preview2">
     <h3><a><font color="#aaaaff">BetaCraft vPreview 2</font></a></h3>
-    5th February 2019, 23:57 CET <br>
+    5th February 2019, 23:57 CET <br />
     <div id="info">
-    Windows | Bugfixes:<br>
-    • Auto-update<br>
-    • Launching the game<br>
-    All platforms | Changes:<br>
-    + Functional option panel<br>
-    + Implemented a new theme of the launcher<br>
-    • Changed the interface language to English<br><br>
+    Windows | Bugfixes:<br />
+    &bull; Auto-update<br />
+    &bull; Launching the game<br />
+    All platforms | Changes:<br />
+    + Functional option panel<br />
+    + Implemented a new theme of the launcher<br />
+    &bull; Changed the interface language to English<br /><br />
     </div>
   </div>
   <div id="preview1">
     <h3><a><font color="#aaaaff">BetaCraft vPreview 1</font></a></h3>
-    4th February 2019, 18:36 CET <br>
+    4th February 2019, 18:36 CET <br />
     <div id="info">
-    Windows | Changes:<br>
-    + The launcher frame shows up<br><br>
-    Linux | Changes:<br>
-    + Can launch the game on versions higher than a1.0.5_01<br>
-    + Version list panel<br>
-    + Options panel (useless at the moment)<br>
-    + Auto-update feature<br><br>
+    Windows | Changes:<br />
+    + The launcher frame shows up<br /><br />
+    Linux | Changes:<br />
+    + Can launch the game on versions higher than a1.0.5_01<br />
+    + Version list panel<br />
+    + Options panel (useless at the moment)<br />
+    + Auto-update feature<br /><br />
     </div>
   </div>
+</body>
 
-
-
-</body></html>
+</html>
