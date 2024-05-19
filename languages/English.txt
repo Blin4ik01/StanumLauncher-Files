@@ -13,7 +13,7 @@ username_field_empty:Username field is empty!
 
 lang_title:Select language
 
-use_betacraft:Use skin & sound proxy
+use_betacraft:Use skin & sound BetaCraft proxy
 update_check:Update available
 keep_launcher_open:Keep the launcher open
 discord_rpc:Discord RPC
