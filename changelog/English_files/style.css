@@ -1,0 +1,52 @@
+@charset "utf-8";
+@font-face {
+  //src: url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-image: url("http://assets.betacraft.uk/img/bg.png");
+  font-family: 'Arial', sans-serif;
+  size: 5;
+  font-size: 15;
+  color: white;
+  padding-left: 8px;
+}
+
+#header {
+  color: #e0d0d0;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '+ ';
+  font-weight: bold;
+}
+
+ul add:before {
+  content: '+ ';
+  font-weight: bold;
+}
+
+ul remove:before {
+  content: '- ';
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16;
+}
+
+#info {
+  padding-left: 30px;
+  size: 5;
+}
