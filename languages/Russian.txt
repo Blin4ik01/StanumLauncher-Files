@@ -29,7 +29,7 @@ version_title:Выбор версии
 
 addon_list_title:Список аддонов
 addon_no_desc:Отсутствует описание.
-addon_show_info:Показать информацию об аддоне
+addon_show_info:Информация о моде
 
 logging_in:Вход...
 login_title:Вход
