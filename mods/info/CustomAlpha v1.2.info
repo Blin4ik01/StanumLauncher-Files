@@ -1,6 +1,6 @@
 release-date:0
 compile-date:0
-url:https://github.com/Blin4ik01/StanumLauncher-Files/blob/main/mods/jars/CustomAlpha v1.2.jar
+url:https://github.com/Blin4ik01/StanumLauncher-Files/raw/main/mods/jars/CustomAlpha v1.2.jar
 launch-method:indev
 launch-method-link:
 proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
