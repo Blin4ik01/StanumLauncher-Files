@@ -1,0 +1,115 @@
+
+new_version_found:Доступна новая версия лаунчера (%s). Установить обновление?
+
+play_button:Играть
+version_button:Сменить версию
+language:Язык
+options_button:Настройки
+launcher_title:Stanum Launcher v
+downloading:Скачивание ...
+packing_mod:Упакование мода ...
+manual_download:Прямое скачивание
+username_field_empty:Пустое имя!
+
+lang_title:Список языков
+
+use_betacraft:Использовать прокси для скинов и звуков
+update_check:Доступно обновление
+keep_launcher_open:Оставлять лаунчер открытым
+discord_rpc:Discord RPC
+launch_arguments:JVM аргументы
+ok:Ок
+width:ширина:
+height:высота:
+options_title:Настройки профиля
+
+sort_oldest:Сортировка: Сначала старые
+sort_newest:Сортировка: Сначала новые
+version_title:Выбор версии
+
+addon_list_title:Список аддонов
+addon_no_desc:Отсутствует описание.
+addon_show_info:Показать информацию об аддоне
+
+logging_in:Вход...
+login_title:Вход
+log_in_button:Войти
+log_out_button:Выйти
+login_email_nickname:E-mail:
+login_password:Пароль:
+login_mojang_header:... или войдите с помощью аккаунта Mojang:
+login_microsoft_button:Вход через Microsoft
+login_microsoft_title:Вход через аккаунт Microsoft
+login_microsoft_error:Ошибка аутентификации
+login_microsoft_parent:Требуется родительское согласие. Добавьте этот аккаунт в семейную группу, чтобы войти.
+login_microsoft_no_xbox:Не зарегистрирован аккаунт XBox
+login_microsoft_no_minecraft:У вас отсутствует Minecraft на этом аккаунте.
+login_microsoft_code_line1:Чтобы продолжить, откройте:
+login_microsoft_code_line2:в браузере и введите код:
+
+login_failed:Не удалось войти в аккаунт
+login_failed_invalid_credentials:Неверный e-mail или пароль.
+
+java_executable:Java:
+java_invalid:Неправильно указан путь к Java.
+java_too_recent:Выбранная версия Java выше 8. Вы уверены, что хотите использовать её?
+
+instance_remove_directory:Вы уверены, что хотите удалить папку этого профиля? Это действие нельзя отменить.
+instance_directory:Папка профиля:
+instance_game_directory_title:Выбор папки профиля
+instance_remove_question:Вы уверены, что хотите удалить этот профиль?
+instance_remove_title:Удалить профиль
+instance_change_icon_name:Изменить иконку
+instance_change_icon_title:Выбор новой иконки для профиля
+instance_change_icon_unsupported:Формат выбранной иконки не поддерживается. Поддерживаемые форматы: %s
+instance_change_icon_unsupported_title:Формат изображения не поддерживается
+instance_change_icon_failed:Что-то пошло не так: %s
+instance_change_icon_failed_title:Не удалось сохранить иконку
+instance_name:Название:
+instance_select_addons:Аддоны
+instance_mods_repository:Каталог модов
+
+select_instance_title:Выбор профиля
+select_instance_new:Новый профиль
+
+tab_changelog:Список изменений
+tab_instances:Выбор профиля
+tab_servers:Список серверов
+
+version_custom: [Пользовательская версия]
+
+browser_title:Просмотр страницы
+
+srv_loading:Загрузка серверов...
+srv_failed:Не удалось загрузить список серверов!
+cl_loading:Загрузка новостей...
+cl_failed:Не удалось загрузить новости об обновлениях!
+
+force_update:Обновить клиент
+console_output_for:Консольный вывод для: "%s"
+console_output:Консольный вывод
+
+nick:Имя: %s
+version:Версия: %s
+server:IP сервера (оставьте пустым чтобы играть оффлайн):
+server_title:IP сервера
+classic_resize:<html><font size=5>Измените размер окна до размера, в котором вы хотите играть.<br />Щелкните в любом месте внутри этого окна, чтобы начать игру.</font></html>
+
+unexpected_error:Ошибка: %s
+no_connection:Нет подключения к интернету.
+download_fail:Загрузка не удалась.
+
+yes:Да
+no:Нет
+cancel:Отмена
+select:Выбрать
+remove:Удалить
+browse:Просмотр
+copy:Копировать
+clear:Очистить
+load:Загрузить
+close:Закрыть
+link:Ссылка
+
+pause:Приостановить
+unpause:Продолжить
