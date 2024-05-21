@@ -5,5 +5,5 @@ launch-method:indev
 launch-method-link:
 proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
 other-name:
-protocolVersion:6
+protocolVersion:14
 file-ver:1
