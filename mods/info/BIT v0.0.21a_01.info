@@ -6,4 +6,5 @@ launch-method-link:
 proxy-args:-Dstand-alone=true -Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
 other-name:
 protocolVersion:14
+base-version:b1.7.3
 file-ver:1
