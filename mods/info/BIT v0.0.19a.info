@@ -1,0 +1,10 @@
+release-date:0
+compile-date:0
+url:https://github.com/Blin4ik01/StanumLauncher-Files/raw/main/mods/jars/BIT%20v0.0.19a.jar
+launch-method:indev
+launch-method-link:
+proxy-args:-Dstand-alone=true -Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
+other-name:
+protocolVersion:14
+base-version:b1.7.3
+file-ver:1
