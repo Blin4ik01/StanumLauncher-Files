@@ -1,6 +1,6 @@
 
 new_version_found:There is a new version of the launcher available (%s). Would you like to update?
-discord:dsc.gg/stanum
+discord:https://dsc.gg/stanum
 
 play_button:Play
 version_button:Select version
