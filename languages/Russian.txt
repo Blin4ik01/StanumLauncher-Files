@@ -1,6 +1,6 @@
 
 new_version_found:Доступна новая версия лаунчера (%s). Установить обновление?
-discord:dsc.gg/stanum
+discord:https://dsc.gg/stanum
 
 play_button:Играть
 version_button:Сменить версию
