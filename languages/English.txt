@@ -1,9 +1,11 @@
 
 new_version_found:There is a new version of the launcher available (%s). Would you like to update?
+discord:dsc.gg/stanum
 
 play_button:Play
 version_button:Select version
 language:Language
+discord_button:Discord
 options_button:Edit instance
 launcher_title:Stanum Launcher v
 downloading:Downloading ...
