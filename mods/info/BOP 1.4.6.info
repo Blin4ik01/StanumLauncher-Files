@@ -1,0 +1,9 @@
+release-date:0
+compile-date:0
+launch-method:indev
+launch-method-link:
+url:https://github.com/Blin4ik01/StanumLauncher-Files/raw/main/mods/jars/BOP%201.4.6.jar
+proxyArgs:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11707
+file-ver:1
+protocolVersion:51
+base-version:1.4.6
