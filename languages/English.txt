@@ -1,6 +1,8 @@
 
 new_version_found:There is a new version of the launcher available (%s). Would you like to update?
 discord:https://dsc.gg/stanum
+stanum:Stanum
+betacraft:BetaCraft
 
 play_button:Play
 version_button:Select version
@@ -32,6 +34,10 @@ version_title:Select version
 addon_list_title:Addons list
 addon_no_desc:No description.
 addon_show_info:Show info
+
+mod_mods:Mods
+mod_texturepacks:TexturePacks
+mod_resources:Resources
 
 logging_in:Logging in...
 login_title:Log in
@@ -97,9 +103,17 @@ server:Server IP (leave blank if you don't want to play online):
 server_title:Server IP
 classic_resize:<html><font size=5>Resize the window to the size you want to play on.<br />Click anywhere inside this window to start the game.</font></html>
 
+error:Error
+success:Success
 unexpected_error:Unexpected error: %s
 no_connection:No stable internet connection.
 download_fail:Download failed.
+scs_mod_download:Successfully downloaded the version: %s
+err_mod_download:Failed to download the version: %s
+scs_texturepack_download:Successfully downloaded the texturepack: %s
+err_texturepack_download:Failed to download the texturepack: %s
+scs_resource_download:Successfully downloaded the resources: %s
+err_resource_download:Failed to download the resources: %s
 
 yes:Yes
 no:No

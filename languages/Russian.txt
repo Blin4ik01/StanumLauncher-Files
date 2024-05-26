@@ -1,6 +1,8 @@
 
 new_version_found:Доступна новая версия лаунчера (%s). Установить обновление?
 discord:https://dsc.gg/stanum
+stanum:Stanum
+betacraft:BetaCraft
 
 play_button:Играть
 version_button:Сменить версию
@@ -32,6 +34,10 @@ version_title:Выбор версии
 addon_list_title:Список аддонов
 addon_no_desc:Отсутствует описание.
 addon_show_info:Информация о моде
+
+mod_mods:Моды
+mod_texturepacks:Пакеты текстур
+mod_resources:Ресурсы
 
 logging_in:Вход...
 login_title:Вход
@@ -97,9 +103,17 @@ server:IP сервера (оставьте пустым чтобы играть 
 server_title:IP сервера
 classic_resize:<html><font size=5>Измените размер окна до размера, в котором вы хотите играть.<br />Щелкните в любом месте внутри этого окна, чтобы начать игру.</font></html>
 
+error:Ошибка
+success:Успех
 unexpected_error:Ошибка: %s
 no_connection:Нет подключения к интернету.
 download_fail:Загрузка не удалась.
+scs_mod_download:Версия успешно загружена: %s
+err_mod_download:Не удалось загрузить версию: %s
+scs_texturepack_download:Текстурпак успешно загружен: %s
+err_texturepack_download:Не удалось загрузить текстурпак: %s
+scs_resource_download:Ресурсы успешно загружены: %s
+err_resource_download:Не удалось загрузить ресурсы: %s
 
 yes:Да
 no:Нет
