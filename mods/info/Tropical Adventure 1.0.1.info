@@ -1,6 +1,6 @@
 release-date:0
 compile-date:0
-url:https://github.com/Blin4ik01/StanumLauncher-Files/raw/main/mods/jars/Tropical%20Adventure%201.0.1.jar
+url:https://github.com/BlueStaggo/TropicalAdventure/releases/download/1.0.1/minecraft.zip
 launch-method:indev
 launch-method-link:
 proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
@@ -8,3 +8,4 @@ other-name:
 file-ver:1
 protocolVersion:17
 base-version:b1.8.1
+sha1:2E3579657F598859897B0B6FB55571783227B1A4
