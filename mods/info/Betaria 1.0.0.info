@@ -1,6 +1,6 @@
 release-date:0
 compile-date:0
-url:https://github.com/Blin4ik01/StanumLauncher-Files/raw/main/mods/jars/Betaria%201.0.0.jar
+url:https://github.com/BlueStaggo/Betaria/releases/download/1.0/minecraft.zip
 launch-method:indev
 launch-method-link:
 proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
@@ -8,3 +8,4 @@ other-name:
 protocolVersion:14
 base-version:b1.7.3
 file-ver:1
+sha1:CC3328A1FC99938597C31DE8267B9ADB3A6C867E
