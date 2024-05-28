@@ -1,0 +1,10 @@
+release-date:0
+compile-date:0
+url:https://github.com/Charmareian/WorseThanRelease/releases/download/v1.04/worsethanrelease1.04.zip
+launch-method:indev
+launch-method-link:
+proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11707
+file-ver:1
+protocolVersion:29
+base-version:1.2.5
+sha1:CD6780232E512F9A414D46A0C3F541DE75C6DDAF

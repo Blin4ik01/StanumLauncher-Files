@@ -1,0 +1,10 @@
+release-date:0
+compile-date:0
+url:https://github.com/Charmareian/WorseThanRelease/releases/download/v1.03/worsethanrelease1.03.zip
+launch-method:indev
+launch-method-link:
+proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11707
+file-ver:1
+protocolVersion:29
+base-version:1.2.5
+sha1:6E0B4E1CFEC8370FC012F67F2D0CC9CC326A917D
