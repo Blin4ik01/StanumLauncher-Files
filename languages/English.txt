@@ -75,7 +75,7 @@ instance_change_icon_failed:Something went wrong: %s
 instance_change_icon_failed_title:Failed to save icon
 instance_name:Name:
 instance_select_addons:Select addons
-instance_mods_repository:Mods repository
+instance_mods_repository:Workshop
 
 select_instance_title:Select instance
 select_instance_new:New instance
