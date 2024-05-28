@@ -106,7 +106,7 @@ classic_resize:<html><font size=5>Измените размер окна до р
 error:Ошибка
 success:Успех
 unexpected_error:Ошибка: %s
-no_connection:Нет подключения к интернету.
+no_connection:Нет подключения к интернету. Попробуйте перезапустить лаунчер.
 download_fail:Загрузка не удалась.
 err_window_no_connection:Нет соединения
 scs_mod_download:Версия успешно загружена: %s
