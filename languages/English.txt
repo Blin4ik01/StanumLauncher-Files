@@ -106,7 +106,7 @@ classic_resize:<html><font size=5>Resize the window to the size you want to play
 error:Error
 success:Success
 unexpected_error:Unexpected error: %s
-no_connection:No stable internet connection.
+no_connection:No stable internet connection. Try restart the launcher.
 download_fail:Download failed.
 err_window_no_connection:No connection
 scs_mod_download:Successfully downloaded the version: %s
