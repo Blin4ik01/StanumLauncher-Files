@@ -75,7 +75,7 @@ instance_change_icon_failed:Что-то пошло не так: %s
 instance_change_icon_failed_title:Не удалось сохранить иконку
 instance_name:Название:
 instance_select_addons:Аддоны
-instance_mods_repository:Каталог модов
+instance_mods_repository:Мастерская
 
 select_instance_title:Выбор профиля
 select_instance_new:Новый профиль
@@ -98,8 +98,8 @@ console_output_for:Консольный вывод для: "%s"
 console_output:Консольный вывод
 
 nick:User: %s
-version:Verison: %s
-server:IP сервера (оставьте пустым чтобы играть оффлайн):
+version:Version: %s
+server:IP сервера (оставьте пустым, чтобы играть оффлайн):
 server_title:IP сервера
 classic_resize:<html><font size=5>Измените размер окна до размера, в котором вы хотите играть.<br />Щелкните в любом месте внутри этого окна, чтобы начать игру.</font></html>
 
