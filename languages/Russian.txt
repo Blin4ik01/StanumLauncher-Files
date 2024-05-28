@@ -108,6 +108,7 @@ success:Успех
 unexpected_error:Ошибка: %s
 no_connection:Нет подключения к интернету.
 download_fail:Загрузка не удалась.
+err_window_no_connection:Нет соединения
 scs_mod_download:Версия успешно загружена: %s
 err_mod_download:Не удалось загрузить версию: %s
 scs_texturepack_download:Текстурпак успешно загружен: %s
