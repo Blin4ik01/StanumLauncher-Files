@@ -11,6 +11,7 @@ discord_button:Discord
 options_button:Настройки
 launcher_title:Stanum Launcher v
 downloading:Скачивание ...
+pointless_downloading:Скачивание
 packing_mod:Упакование мода ...
 manual_download:Прямое скачивание
 username_field_empty:Пустое имя!

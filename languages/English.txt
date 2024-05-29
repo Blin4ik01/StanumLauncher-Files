@@ -11,6 +11,7 @@ discord_button:Discord
 options_button:Edit instance
 launcher_title:Stanum Launcher v
 downloading:Downloading ...
+pointless_downloading:Downloading
 packing_mod:Packing mod ...
 manual_download:Manual download
 username_field_empty:Username field is empty!
