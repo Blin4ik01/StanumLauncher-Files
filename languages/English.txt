@@ -19,6 +19,7 @@ username_field_empty:Username field is empty!
 lang_title:Select language
 
 use_betacraft:Use skin & sound BetaCraft proxy
+use_profiles:Separate version folders
 update_check:Update available
 keep_launcher_open:Keep the launcher open
 discord_rpc:Discord RPC
@@ -46,7 +47,6 @@ log_in_button:Log in
 log_out_button:Log out
 login_email_nickname:E-mail:
 login_password:Password:
-login_mojang_header:... or login with a Mojang account:
 login_microsoft_button:Login with Microsoft
 login_microsoft_title:Login with your Microsoft account
 login_microsoft_error:Microsoft authentication error
@@ -83,17 +83,15 @@ select_instance_new:New instance
 
 tab_changelog:Changelog
 tab_instances:Instances
-tab_servers:Server list
 
 version_custom: [Custom]
 
 browser_title:Webpage viewer
 
-srv_loading:Loading server list...
-srv_failed:Failed to list Minecraft servers!
 cl_loading:Loading update news...
 cl_failed:Failed to load update news!
 
+window_name:Use in-game window name
 force_update:Force update
 console_output_for:Console output for "%s"
 console_output:Console output
@@ -109,7 +107,8 @@ success:Success
 unexpected_error:Unexpected error: %s
 no_connection:No stable internet connection. Try restart the launcher.
 download_fail:Download failed.
-err_window_no_connection:No connection
+
+err_window_no_connection: [No connection]
 scs_mod_download:Successfully downloaded the version: %s
 err_mod_download:Failed to download the version: %s
 scs_texturepack_download:Successfully downloaded the texturepack: %s

@@ -19,6 +19,7 @@ username_field_empty:Пустое имя!
 lang_title:Список языков
 
 use_betacraft:Использовать прокси для скинов и звуков
+use_profiles:Отдельные папки для версий
 update_check:Доступно обновление
 keep_launcher_open:Оставлять лаунчер открытым
 discord_rpc:Discord RPC
@@ -46,7 +47,6 @@ log_in_button:Войти
 log_out_button:Выйти
 login_email_nickname:E-mail:
 login_password:Пароль:
-login_mojang_header:... или войдите с помощью аккаунта Mojang:
 login_microsoft_button:Вход через Microsoft
 login_microsoft_title:Вход через аккаунт Microsoft
 login_microsoft_error:Ошибка аутентификации
@@ -83,17 +83,15 @@ select_instance_new:Новый профиль
 
 tab_changelog:Список изменений
 tab_instances:Выбор профиля
-tab_servers:Список серверов
 
 version_custom: [Пользовательская версия]
 
 browser_title:Просмотр страницы
 
-srv_loading:Загрузка серверов...
-srv_failed:Не удалось загрузить список серверов!
 cl_loading:Загрузка новостей...
 cl_failed:Не удалось загрузить новости об обновлениях!
 
+window_name:Использовать игровое название окна
 force_update:Обновить клиент
 console_output_for:Консольный вывод для: "%s"
 console_output:Консольный вывод
@@ -109,7 +107,8 @@ success:Успех
 unexpected_error:Ошибка: %s
 no_connection:Нет подключения к интернету. Попробуйте перезапустить лаунчер.
 download_fail:Загрузка не удалась.
-err_window_no_connection:Нет соединения
+
+err_window_no_connection: [Нет соединения]
 scs_mod_download:Версия успешно загружена: %s
 err_mod_download:Не удалось загрузить версию: %s
 scs_texturepack_download:Текстурпак успешно загружен: %s
