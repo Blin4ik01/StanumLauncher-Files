@@ -85,6 +85,7 @@ tab_changelog:Changelog
 tab_instances:Instances
 
 version_custom: [Custom]
+for_version: for version %v
 
 browser_title:Webpage viewer
 
