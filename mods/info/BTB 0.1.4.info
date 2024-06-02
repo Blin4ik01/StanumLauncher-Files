@@ -1,0 +1,11 @@
+release-date:0
+compile-date:0
+url:https://github.com/relt-1/btbrel/releases/download/BTB0.1.4/minecraft.zip
+launch-method:indev
+launch-method-link:
+proxy-args:-Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11705
+other-name:
+file-ver:1
+protocolVersion:9
+base-version:b1.3_01
+sha1:B935A35004361421489EEE73EF3C56A53BA2B91F
